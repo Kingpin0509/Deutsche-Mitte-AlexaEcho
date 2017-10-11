@@ -11,9 +11,9 @@ exports.handler = function(event, context, callback) {
   app.execute();
 };
 const HELP_MESSAGE =
-  "You can say tell me a space fact, or, you can say exit... What can I help you with?";
-const HELP_REPROMPT = "What can I help you with?";
-const STOP_MESSAGE = "Goodbye!";
+  "Willkommen bei  der Deutschen Mitte. Was möchtest du wissen?";
+const HELP_REPROMPT = "Was möchtest du sonst noch wissen?";
+const STOP_MESSAGE = "Aufwiedersehen!";
 // =================================================================================
 // Below is where the logic of your voice app should be happening
 // Get started by adding some intents and Jovo functions
