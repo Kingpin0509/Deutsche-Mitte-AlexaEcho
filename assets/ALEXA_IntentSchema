@@ -17,6 +17,11 @@
       "name": "AMAZON.StopIntent",
       "samples": []
     },
+        {
+      "name": "EinleitungIntent",
+      "samples": ["Einleitung", "Einführung", "Programm", "Deutsche Mitte", "Überblick"],
+      "slots": []
+    },
     {
       "name": "ArbeitSozialpolitikIntent",
       "samples": ["Sozialpolitik", "Arbeit und Soziales"],

@@ -23,9 +23,13 @@ let handlers = {
   LAUNCH: function() {
     app.toIntent("HelloWorldIntent");
   },
-
   HelloWorldIntent: function() {
     app.tell("Willkommen bei der Deutschen Mitte. Sage Einleitung für einen Überblick der DM bestrebungen. Nenne ein Politikressort über das du mehr erfahren möchtest z.B. Innenpolitik, Verteidigung oder Wirtschaft. Sage Hilfe für einen Überblick aller Funktionen.");
+  },
+  EinleitungIntent: function() {
+    app.tell(
+      "Die Deutsche Mitte hat sich ein gewaltiges Programm gegeben. Wir gehen weiter als die Konkurrenz. Unsere Ziele sind ohne besonderen Einsatz und persönliche Opfer nicht erreichbar. Je umfassender die Mitwirkung, desto höher die persönlichen Anforderungen. Vorstände und Kandidaten bei Wahlen müssen die Gewähr bieten, dass sie die selbstgestellten Aufgaben erfüllen können. Deshalb werden Aus- und Fortbildungen im fachlichen und persönlichen Bereich immer wichtiger. Die inneren Strukturen in Partei und anderen Organisationsformen müssen mitwachsen. Wenn Leistungsträger aus der Mitte der deutschen Gesellschaft zu uns kommen, wollen sie angemessene Ansprechpartner finden. Die Deutsche Mitte will gerechten und fairen Ausgleich zwischen allen Menschen und gruppen. Veränderung geht nur gemeinsam."
+    );
   },
   AussenpolitikIntent: function() {
     app.tell(
