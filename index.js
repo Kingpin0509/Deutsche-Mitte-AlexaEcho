@@ -11,7 +11,7 @@ exports.handler = function(event, context, callback) {
   app.execute();
 };
 const HELP_MESSAGE =
-  "Willkommen bei  der Deutschen Mitte. Was möchtest du wissen?";
+  "Politikressorts: Sozialpolitik, Aussenpolitik, Bildungspolitik, Entwicklungspolitik, Familienpolitik, Finanzpolitik, Gesundheitspolitik, Innenpolitik, Justiz, Umweltschutz, Verbraucherschutz, Verkehrspolitik, Verteidigungs- oder Wirtschaftspolitik.";
 const HELP_REPROMPT = "Was möchtest du sonst noch wissen?";
 const STOP_MESSAGE = "Aufwiedersehen!";
 // =================================================================================
@@ -25,7 +25,7 @@ let handlers = {
   },
 
   HelloWorldIntent: function() {
-    app.tell("Hello World!");
+    app.tell("Willkommen bei der Deutschen Mitte. Sage Einleitung für einen Überblick der DM bestrebungen. Nenne ein Politikressort über das du mehr erfahren möchtest z.B. Innenpolitik, Verteidigung oder Wirtschaft. Sage Hilfe für einen Überblick aller Funktionen.");
   },
   AussenpolitikIntent: function() {
     app.tell(
