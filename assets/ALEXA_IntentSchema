@@ -1,11 +1,6 @@
 {
   "intents": [
     {
-      "name": "HelloWorldIntent",
-      "samples": ["say hello", "say hi"],
-      "slots": []
-    },
-    {
       "name": "AMAZON.CancelIntent",
       "samples": []
     },
@@ -17,19 +12,20 @@
       "name": "AMAZON.StopIntent",
       "samples": []
     },
-        {
-      "name": "EinleitungIntent",
-      "samples": ["Einleitung", "Einführung", "Programm", "Deutsche Mitte", "Überblick"],
-      "slots": []
-    },
     {
       "name": "ArbeitSozialpolitikIntent",
-      "samples": ["Sozialpolitik", "Arbeit und Soziales"],
+      "samples": [
+        "Sozialpolitik",
+        "Arbeit und Soziales"
+      ],
       "slots": []
     },
     {
       "name": "AussenpolitikIntent",
-      "samples": ["Aussenpolitik", "Außenpolitik"],
+      "samples": [
+        "Aussenpolitik",
+        "Außenpolitik"
+      ],
       "slots": []
     },
     {
@@ -43,33 +39,72 @@
       "slots": []
     },
     {
+      "name": "EinleitungIntent",
+      "samples": [
+        "Einleitung",
+        "Einführung",
+        "Programm",
+        "Deutsche Mitte",
+        "Überblick"
+      ],
+      "slots": []
+    },
+    {
       "name": "EntwicklungIntent",
-      "samples": ["Entwicklungspolitik", "Entwicklungshilfe", "Entwicklung"],
+      "samples": [
+        "Entwicklungspolitik",
+        "Entwicklungshilfe",
+        "Entwicklung"
+      ],
       "slots": []
     },
     {
       "name": "FamilienpolitikIntent",
-      "samples": ["Familie", "Familienpolitik"],
+      "samples": [
+        "Familie",
+        "Familienpolitik"
+      ],
       "slots": []
     },
     {
       "name": "FinanzpolitikIntent",
-      "samples": ["Finanzpolitik", "Finanzen"],
+      "samples": [
+        "Finanzpolitik",
+        "Finanzen"
+      ],
       "slots": []
     },
     {
       "name": "GesundheitIntent",
-      "samples": ["Gesundheit", "Gesundheitspolitik", "Gesundheitssystem"],
+      "samples": [
+        "Gesundheit",
+        "Gesundheitspolitik",
+        "Gesundheitssystem"
+      ],
+      "slots": []
+    },
+    {
+      "name": "HelloWorldIntent",
+      "samples": [
+        "sag hallo",
+        "sag hi"
+      ],
       "slots": []
     },
     {
       "name": "InnenpolitikIntent",
-      "samples": ["Innenpolitik", "Inneres"],
+      "samples": [
+        "Innenpolitik",
+        "Inneres"
+      ],
       "slots": []
     },
     {
       "name": "JustizIntent",
-      "samples": ["Justiz", "Rechtssystem"],
+      "samples": [
+        "Justiz",
+        "Rechtssystem"
+      ],
       "slots": []
     },
     {
@@ -95,17 +130,27 @@
     },
     {
       "name": "VerkehrspolitikIntent",
-      "samples": ["Infrastruktur", "Verkehrspolitik", "Verkehr"],
+      "samples": [
+        "Infrastruktur",
+        "Verkehrspolitik",
+        "Verkehr"
+      ],
       "slots": []
     },
     {
       "name": "VerteidigungIntent",
-      "samples": ["Verteidigung", "Verteidigungspolitik"],
+      "samples": [
+        "Verteidigung",
+        "Verteidigungspolitik"
+      ],
       "slots": []
     },
     {
       "name": "WirtschaftIntent",
-      "samples": ["Wirtschaft", "Wirtschaftsprogramm"],
+      "samples": [
+        "Wirtschaft",
+        "Wirtschaftsprogramm"
+      ],
       "slots": []
     }
   ]
