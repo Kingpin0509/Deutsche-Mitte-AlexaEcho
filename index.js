@@ -24,7 +24,7 @@ let handlers = {
     app.toIntent("HelloWorldIntent");
   },
   HelloWorldIntent: function() {
-    app.tell("Willkommen bei der Deutschen Mitte. Sage Einleitung für einen Überblick der DM bestrebungen. Nenne ein Politikressort über das du mehr erfahren möchtest z.B. Innenpolitik, Verteidigung oder Wirtschaft. Sage Hilfe für einen Überblick aller Funktionen.");
+    app.tell("Willkommen bei der Deutschen Mitte. Willst du genaueres über die Deutsche Mitte erfahren? Dann sage Einleitung. Oder willst du mehr über das politische Programm der Deutschen Mitte erfahren? Dann nenne ein Politikressort über das du mehr erfahren möchtest z.B. Innenpolitik, Verteidigung oder Wirtschaft. Oder möchtest du eine Auflistung aller Programmschwerpunkte? Dann sage Hilfe.");
   },
   EinleitungIntent: function() {
     app.tell(
