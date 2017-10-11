@@ -10,8 +10,7 @@ exports.handler = function (event, context, callback) {
   app.handleRequest(event, callback, handlers);
   app.execute();
 };
-const HELP_MESSAGE =
-  "Politikressorts: Sozialpolitik, Aussenpolitik, Bildungspolitik, Entwicklungspolitik, Familienpolitik, Finanzpolitik, Gesundheitspolitik, Innenpolitik, Justiz, Umweltschutz, Verbraucherschutz, Verkehrspolitik, Verteidigungs- oder Wirtschaftspolitik.";
+const HELP_MESSAGE = "Politikressorts: Sozialpolitik, Aussenpolitik, Bildungspolitik, Entwicklungspolitik, Familienpolitik, Finanzpolitik, Gesundheitspolitik, Innenpolitik, Justiz, Umweltschutz, Verbraucherschutz, Verkehrspolitik, Verteidigungs- oder Wirtschaftspolitik.";
 const HELP_REPROMPT = "Was möchtest du sonst noch wissen?";
 const STOP_MESSAGE = "Aufwiedersehen!";
 // =================================================================================
