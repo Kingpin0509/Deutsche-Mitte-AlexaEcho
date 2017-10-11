@@ -1,0 +1,107 @@
+{
+  "intents": [
+    {
+      "name": "HelloWorldIntent",
+      "samples": ["say hello", "say hi"],
+      "slots": []
+    },
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "ArbeitSozialpolitikIntent",
+      "samples": ["Sozialpolitik", "Arbeit und Soziales"],
+      "slots": []
+    },
+    {
+      "name": "AussenpolitikIntent",
+      "samples": ["Aussenpolitik", "Außenpolitik"],
+      "slots": []
+    },
+    {
+      "name": "BildungForschungIntent",
+      "samples": [
+        "Bildung und Forschung",
+        "Bildungspolitik",
+        "Bildungssystem",
+        "Bildung"
+      ],
+      "slots": []
+    },
+    {
+      "name": "EntwicklungIntent",
+      "samples": ["Entwicklungspolitik", "Entwicklungshilfe", "Entwicklung"],
+      "slots": []
+    },
+    {
+      "name": "FamilienpolitikIntent",
+      "samples": ["Familie", "Familienpolitik"],
+      "slots": []
+    },
+    {
+      "name": "FinanzpolitikIntent",
+      "samples": ["Finanzpolitik", "Finanzen"],
+      "slots": []
+    },
+    {
+      "name": "GesundheitIntent",
+      "samples": ["Gesundheit", "Gesundheitspolitik", "Gesundheitssystem"],
+      "slots": []
+    },
+    {
+      "name": "InnenpolitikIntent",
+      "samples": ["Innenpolitik", "Inneres"],
+      "slots": []
+    },
+    {
+      "name": "JustizIntent",
+      "samples": ["Justiz", "Rechtssystem"],
+      "slots": []
+    },
+    {
+      "name": "UmweltIntent",
+      "samples": [
+        "Umwelt Naturschutz und Reaktorsicherheit",
+        "Umweltschutz",
+        "Naturschutz",
+        "Umweltpolitik",
+        "Umweltprogramm"
+      ],
+      "slots": []
+    },
+    {
+      "name": "VerbraucherschutzIntent",
+      "samples": [
+        "Ernährung Landwirtschaft und Verbraucherschutz",
+        "Verbraucherschutz",
+        "Landwirtschaft",
+        "Ernährung"
+      ],
+      "slots": []
+    },
+    {
+      "name": "VerkehrspolitikIntent",
+      "samples": ["Infrastruktur", "Verkehrspolitik", "Verkehr"],
+      "slots": []
+    },
+    {
+      "name": "VerteidigungIntent",
+      "samples": ["Verteidigung", "Verteidigungspolitik"],
+      "slots": []
+    },
+    {
+      "name": "WirtschaftIntent",
+      "samples": ["Wirtschaft", "Wirtschaftsprogramm"],
+      "slots": []
+    }
+  ]
+}
