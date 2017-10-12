@@ -16,6 +16,9 @@
       "name": "ArbeitSozialpolitikIntent",
       "samples": [
         "Sozialpolitik",
+        "Arbeitsmarkt",
+        "Arbeitslose",
+        "Arbeit",
         "Arbeit und Soziales"
       ],
       "slots": []
@@ -24,6 +27,12 @@
       "name": "AussenpolitikIntent",
       "samples": [
         "Aussenpolitik",
+        "Russland",
+        "Amerika",
+        "USA",
+        "EU",
+        "China",
+        "Naher Osten",
         "Außenpolitik"
       ],
       "slots": []
@@ -34,6 +43,12 @@
         "Bildung und Forschung",
         "Bildungspolitik",
         "Bildungssystem",
+        "Schule",
+        "Lehrer",
+        "Ausbildung",
+        "Forschung",
+        "Studium",
+        "Universitäten",
         "Bildung"
       ],
       "slots": []
@@ -42,7 +57,7 @@
       "name": "CancelIntent",
       "samples": [
         "Abbruch",
-        "abbrechen"
+        "Abbrechen"
       ],
       "slots": []
     },
@@ -61,6 +76,9 @@
       "name": "EntwicklungIntent",
       "samples": [
         "Entwicklungspolitik",
+        "Afrika",
+        "Dritte Welt",
+        "Hunger",
         "Entwicklungshilfe",
         "Entwicklung"
       ],
@@ -70,6 +88,11 @@
       "name": "FamilienpolitikIntent",
       "samples": [
         "Familie",
+        "Kinder",
+        "Senioren",
+        "Frauen",
+        "Kindergeld",
+        "Jugend",
         "Familienpolitik"
       ],
       "slots": []
@@ -77,6 +100,13 @@
     {
       "name": "FinanzpolitikIntent",
       "samples": [
+        "Geldsystem",
+        "Bank",
+        "Kapital",
+        "Bankenkartell",
+        "Banker",
+        "Zinsen",
+        "Geldschöpfung",
         "Finanzpolitik",
         "Finanzen"
       ],
@@ -86,6 +116,7 @@
       "name": "GesundheitIntent",
       "samples": [
         "Gesundheit",
+        "Krankenversicherung",
         "Gesundheitspolitik",
         "Gesundheitssystem"
       ],
@@ -94,15 +125,20 @@
     {
       "name": "HelloWorldIntent",
       "samples": [
-        "sag hallo",
-        "sag hi"
+        "Zurück zum Anfang",
+        "Zurück",
+        "Neustarten",
+        "Menu"
       ],
       "slots": []
     },
     {
       "name": "HelpIntent",
       "samples": [
-        "Hilfe"
+        "Hilfe",
+        "Programmpunkte",
+        "Themen",
+        "Ressorts"
       ],
       "slots": []
     },
@@ -110,6 +146,8 @@
       "name": "InnenpolitikIntent",
       "samples": [
         "Innenpolitik",
+        "Sicherheit",
+        "Polizei",
         "Inneres"
       ],
       "slots": []
@@ -154,6 +192,11 @@
     {
       "name": "VerkehrspolitikIntent",
       "samples": [
+        "Strassen",
+        "Schiene",
+        "Bahn",
+        "Bus",
+        "Nahverkehr",
         "Infrastruktur",
         "Verkehrspolitik",
         "Verkehr"
@@ -163,6 +206,10 @@
     {
       "name": "VerteidigungIntent",
       "samples": [
+        "Bundeswehr",
+        "NATO",
+        "Krieg",
+        "Landesversteigigung",
         "Verteidigung",
         "Verteidigungspolitik"
       ],
