@@ -39,6 +39,14 @@
       "slots": []
     },
     {
+      "name": "CancelIntent",
+      "samples": [
+        "Abbruch",
+        "abbrechen"
+      ],
+      "slots": []
+    },
+    {
       "name": "EinleitungIntent",
       "samples": [
         "Einleitung",
@@ -92,6 +100,13 @@
       "slots": []
     },
     {
+      "name": "HelpIntent",
+      "samples": [
+        "Hilfe"
+      ],
+      "slots": []
+    },
+    {
       "name": "InnenpolitikIntent",
       "samples": [
         "Innenpolitik",
@@ -104,6 +119,14 @@
       "samples": [
         "Justiz",
         "Rechtssystem"
+      ],
+      "slots": []
+    },
+    {
+      "name": "StopIntent",
+      "samples": [
+        "Stop",
+        "Beenden"
       ],
       "slots": []
     },
