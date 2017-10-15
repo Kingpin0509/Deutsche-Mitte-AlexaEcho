@@ -1,0 +1,62 @@
+[
+  {
+    "id": "4ea12105-cb00-4274-ab94-a7c0a7564fef",
+    "data": [
+      {
+        "text": "Arbeit und Soziales",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d856228-cecb-4b59-9497-a740d980c1a9",
+    "data": [
+      {
+        "text": "Arbeit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d8577ab9-2cdd-48c5-beef-edf1de1ddbed",
+    "data": [
+      {
+        "text": "Arbeitslose",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3273844-7d7c-403b-8d1a-21cb57da768a",
+    "data": [
+      {
+        "text": "Arbeitsmarkt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6018541-6f28-44cd-aa61-af993dab04f4",
+    "data": [
+      {
+        "text": "Sozialpolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

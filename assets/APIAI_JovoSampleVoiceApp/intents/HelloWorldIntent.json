@@ -1,0 +1,46 @@
+{
+  "userSays": [
+    {
+      "id": "b8838657-f7fc-4c82-b204-7c22b1ea2fef",
+      "data": [
+        {
+          "text": "say hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eccd61f8-77ef-49f1-b86c-500b66a56791",
+      "data": [
+        {
+          "text": "say hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "91ac1f25-e5eb-4178-acf7-0729117960d6",
+  "name": "HelloWorldIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

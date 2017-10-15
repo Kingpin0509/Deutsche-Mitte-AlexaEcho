@@ -1,0 +1,110 @@
+[
+  {
+    "id": "165baca6-b5b2-4e5a-96ad-5139d84f3e3a",
+    "data": [
+      {
+        "text": "Bankenkartell",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1507924845
+  },
+  {
+    "id": "dfb80e40-b68c-4a1e-9ee2-f3218622ed6c",
+    "data": [
+      {
+        "text": "Finanzpolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507924845
+  },
+  {
+    "id": "c09f34d7-f956-4a12-8b5d-afa7381fa11c",
+    "data": [
+      {
+        "text": "Geldschöpfung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507924845
+  },
+  {
+    "id": "5903a929-a6ee-4452-9476-ce5af45f3a0a",
+    "data": [
+      {
+        "text": "Zinsen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507924845
+  },
+  {
+    "id": "fee9f918-269c-42b4-a5df-8380fb081f3f",
+    "data": [
+      {
+        "text": "Banker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507924845
+  },
+  {
+    "id": "638dd421-2da6-44f1-8eae-3a3921b39a43",
+    "data": [
+      {
+        "text": "Kapital",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1507924675
+  },
+  {
+    "id": "f8ec4561-1fbe-4122-a279-9f69c1cb19c3",
+    "data": [
+      {
+        "text": "Bank",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507924675
+  },
+  {
+    "id": "9df932cb-0cee-47d6-9c32-2072740e525a",
+    "data": [
+      {
+        "text": "Geldsystem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507924675
+  },
+  {
+    "id": "7d03dc70-ab3e-4669-b874-952eb4630e77",
+    "data": [
+      {
+        "text": "Finanzen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1507924675
+  }
+]

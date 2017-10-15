@@ -1,0 +1,57 @@
+{
+  "id": "707b6af8-8a10-40a4-894b-bfeae74ae21c",
+  "name": "FinanzpolitikIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "de",
+          "customizeAudio": true,
+          "textToSpeech": "Finanzpolitik\nBanken werden ehrliche Dienstleister, Zockerei wird verboten, Zins und Zinseszins werden abgeschafft.Marode Banken werden vorübergehend verstaatlicht und teilweise in kontrollierten Konkurs gehen. Manager haften für Fehlverhalten, Betrug wird strenger bestraft. Wir fordern die Trennung von Geschäfts- und Investmentbanken und eine Börsentransaktionssteuer, um Großspekulanten einzubremsen. Diese Schritte werden international abgestimmt, durchgesetzt und eingeführt, genau wie das Verbot von Spekulantentricks: Derivate, Leerverkäufe und Termingeschäfte. Euro-Unterstützung zahlen wir nur noch gegen dreifache Sicherheit, um das Vermögen des deutschen Volkes abzusichern.Künftig darf nie wieder eine nationale Währung Weltleitwährung sein! Denn es ist genau dieser Umstand, der in den letzten zehn Jahren immer wieder zu Kriegen geführt hat – und jetzt global brandgefährlich wird! Steuern für Superreiche und auf Mega-Erbschaften steigen, Schwächere werden entlastet. Wir motivieren Superreiche und Großkonzerne, freiwillig mehr Steuern in Deutschland zu zahlen – und organisieren dies als soziales Mäzenatentum. Steuerverschwendung wird strenger geahndet und wirkungsvoller vermieden. Mehr Mitsprache für Steuerzahler! Die Deutsche Mitte fördert alternative und regionale Währungen ebenso wie Tauschringe. Die „Monetative“ (nach Prof. Dr. Bernd Senf) verbietet Geldschöpfung durch Regierung oder private Einrichtungen und legt dieses Privileg ausschließlich in die Hände einer reformierten und wirklich unabhängigen Bundesbank. Dieses Prinzip ist eingebettet in das ebenfalls verfolgte „Viergliederungsprinzip“ (nach Prof. Dr. Johannes Heinrichs) und angelehnt an das „Dreigliederungsprinzip“ (nach Dr. Rudolf Steiner).Sämtliche tiefgreifende Reformen erfolgen ausschließlich in gründlicher und tatsächlich unabhängiger wissenschaftlicher und praxisnaher Vorbereitung und Begleitung.",
+          "displayText": "Banken werden ehrliche Dienstleister, Zockerei wird verboten, Zins und Zinseszins werden abgeschafft.Marode Banken werden vorübergehend verstaatlicht und teilweise in kontrollierten Konkurs gehen. Manager haften für Fehlverhalten, Betrug wird strenger bestraft. Wir fordern die Trennung von Geschäfts- und Investmentbanken und eine Börsentransaktionssteuer, um Großspekulanten einzubremsen. Diese Schritte werden international abgestimmt, durchgesetzt und eingeführt, genau wie das Verbot von Spekulantentricks: Derivate, Leerverkäufe und Termingeschäfte. Euro-Unterstützung zahlen wir nur noch gegen dreifache Sicherheit, um das Vermögen des deutschen Volkes abzusichern.Künftig darf nie wieder eine nationale Währung Weltleitwährung sein! Denn es ist genau dieser Umstand, der in den letzten zehn Jahren immer wieder zu Kriegen geführt hat – und jetzt global brandgefährlich wird! Steuern für Superreiche und auf Mega-Erbschaften steigen, Schwächere werden entlastet. Wir motivieren Superreiche und Großkonzerne, freiwillig mehr Steuern in Deutschland zu zahlen – und organisieren dies als soziales Mäzenatentum. Steuerverschwendung wird strenger geahndet und wirkungsvoller vermieden. Mehr Mitsprache für Steuerzahler! Die Deutsche Mitte fördert alternative und regionale Währungen ebenso wie Tauschringe. Die „Monetative“ (nach Prof. Dr. Bernd Senf) verbietet Geldschöpfung durch Regierung oder private Einrichtungen und legt dieses Privileg ausschließlich in die Hände einer reformierten und wirklich unabhängigen Bundesbank. Dieses Prinzip ist eingebettet in das ebenfalls verfolgte „Viergliederungsprinzip“ (nach Prof. Dr. Johannes Heinrichs) und angelehnt an das „Dreigliederungsprinzip“ (nach Dr. Rudolf Steiner).Sämtliche tiefgreifende Reformen erfolgen ausschließlich in gründlicher und tatsächlich unabhängiger wissenschaftlicher und praxisnaher Vorbereitung und Begleitung."
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "de",
+          "title": "Finanzpolitik",
+          "subtitle": "Banken werden ehrliche Dienstleister, Zockerei wird verboten, Zins und Zinseszins werden abgeschafft.",
+          "formattedText": "Marode Banken werden vorübergehend verstaatlicht und teilweise in kontrollierten Konkurs gehen. Manager haften für Fehlverhalten, Betrug wird strenger bestraft. Wir fordern die Trennung von Geschäfts- und Investmentbanken und eine Börsentransaktionssteuer, um Großspekulanten einzubremsen. Diese Schritte werden international abgestimmt, durchgesetzt und eingeführt, genau wie das Verbot von Spekulantentricks: Derivate, Leerverkäufe und Termingeschäfte. Euro-Unterstützung zahlen wir nur noch gegen dreifache Sicherheit, um das Vermögen des deutschen Volkes abzusichern.Künftig darf nie wieder eine nationale Währung Weltleitwährung sein! Denn es ist genau dieser Umstand, der in den letzten zehn Jahren immer wieder zu Kriegen geführt hat – und jetzt global brandgefährlich wird! Steuern für Superreiche und auf Mega-Erbschaften steigen, Schwächere werden entlastet. Wir motivieren Superreiche und Großkonzerne, freiwillig mehr Steuern in Deutschland zu zahlen – und organisieren dies als soziales Mäzenatentum. Steuerverschwendung wird strenger geahndet und wirkungsvoller vermieden. Mehr Mitsprache für Steuerzahler! Die Deutsche Mitte fördert alternative und regionale Währungen ebenso wie Tauschringe. Die „Monetative“ (nach Prof. Dr. Bernd Senf) verbietet Geldschöpfung durch Regierung oder private Einrichtungen und legt dieses Privileg ausschließlich in die Hände einer reformierten und wirklich unabhängigen Bundesbank. Dieses Prinzip ist eingebettet in das ebenfalls verfolgte „Viergliederungsprinzip“ (nach Prof. Dr. Johannes Heinrichs) und angelehnt an das „Dreigliederungsprinzip“ (nach Dr. Rudolf Steiner).Sämtliche tiefgreifende Reformen erfolgen ausschließlich in gründlicher und tatsächlich unabhängiger wissenschaftlicher und praxisnaher Vorbereitung und Begleitung.",
+          "image": {
+            "url": "https://i.vimeocdn.com/video/449142971_640.jpg"
+          },
+          "buttons": [
+            {
+              "title": "https://deutsche-mitte.de/finanzpolitik/",
+              "openUrlAction": {
+                "url": "https://deutsche-mitte.de/finanzpolitik/"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Finanzpolitik\nBanken werden ehrliche Dienstleister, Zockerei wird verboten, Zins und Zinseszins werden abgeschafft.Marode Banken werden vorübergehend verstaatlicht und teilweise in kontrollierten Konkurs gehen. Manager haften für Fehlverhalten, Betrug wird strenger bestraft. Wir fordern die Trennung von Geschäfts- und Investmentbanken und eine Börsentransaktionssteuer, um Großspekulanten einzubremsen. Diese Schritte werden international abgestimmt, durchgesetzt und eingeführt, genau wie das Verbot von Spekulantentricks: Derivate, Leerverkäufe und Termingeschäfte. Euro-Unterstützung zahlen wir nur noch gegen dreifache Sicherheit, um das Vermögen des deutschen Volkes abzusichern.Künftig darf nie wieder eine nationale Währung Weltleitwährung sein! Denn es ist genau dieser Umstand, der in den letzten zehn Jahren immer wieder zu Kriegen geführt hat – und jetzt global brandgefährlich wird! Steuern für Superreiche und auf Mega-Erbschaften steigen, Schwächere werden entlastet. Wir motivieren Superreiche und Großkonzerne, freiwillig mehr Steuern in Deutschland zu zahlen – und organisieren dies als soziales Mäzenatentum. Steuerverschwendung wird strenger geahndet und wirkungsvoller vermieden. Mehr Mitsprache für Steuerzahler! Die Deutsche Mitte fördert alternative und regionale Währungen ebenso wie Tauschringe. Die „Monetative“ (nach Prof. Dr. Bernd Senf) verbietet Geldschöpfung durch Regierung oder private Einrichtungen und legt dieses Privileg ausschließlich in die Hände einer reformierten und wirklich unabhängigen Bundesbank. Dieses Prinzip ist eingebettet in das ebenfalls verfolgte „Viergliederungsprinzip“ (nach Prof. Dr. Johannes Heinrichs) und angelehnt an das „Dreigliederungsprinzip“ (nach Dr. Rudolf Steiner).Sämtliche tiefgreifende Reformen erfolgen ausschließlich in gründlicher und tatsächlich unabhängiger wissenschaftlicher und praxisnaher Vorbereitung und Begleitung."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507926924,
+  "fallbackIntent": false,
+  "events": []
+}
