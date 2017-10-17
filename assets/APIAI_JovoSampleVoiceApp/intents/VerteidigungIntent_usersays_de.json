@@ -1,0 +1,74 @@
+[
+  {
+    "id": "b720407b-2d2a-4f65-9b04-f493650927e7",
+    "data": [
+      {
+        "text": "Verteidigung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508226456
+  },
+  {
+    "id": "e61fd00b-c9e7-4fd9-be19-98df901b895b",
+    "data": [
+      {
+        "text": "Landesverteidigung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508227346
+  },
+  {
+    "id": "5fa8c3de-91fc-4014-85ab-68e3f149dedf",
+    "data": [
+      {
+        "text": "Krieg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227346
+  },
+  {
+    "id": "a6ed1920-2e51-4037-bf46-32860c5acddf",
+    "data": [
+      {
+        "text": "NATO",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227346
+  },
+  {
+    "id": "f7f5a580-5bf1-47e5-8490-281b4994c259",
+    "data": [
+      {
+        "text": "Bundeswehr",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227346
+  },
+  {
+    "id": "7462f70e-cbc6-4033-9382-7927f6a3a63f",
+    "data": [
+      {
+        "text": "Verteidigungspolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227346
+  }
+]

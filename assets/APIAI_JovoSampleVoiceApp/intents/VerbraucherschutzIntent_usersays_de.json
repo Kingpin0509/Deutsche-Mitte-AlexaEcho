@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bcd7113e-b242-4cdc-aab0-4a2dff3c5f5f",
+    "data": [
+      {
+        "text": "Verbraucherschutz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9eaeace1-005b-4359-bb44-edcb6bffb28b",
+    "data": [
+      {
+        "text": "Landwirtschaft",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508227603
+  },
+  {
+    "id": "fbe7330c-73ca-424b-a03f-60d708e24e26",
+    "data": [
+      {
+        "text": "Ernährung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508227572
+  },
+  {
+    "id": "0de0f339-f1a7-46b5-8e51-55dfc472d7cf",
+    "data": [
+      {
+        "text": "Ernährung Landwirtschaft und Verbraucherschutz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508227572
+  }
+]

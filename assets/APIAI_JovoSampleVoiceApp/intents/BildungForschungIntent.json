@@ -1,0 +1,32 @@
+{
+  "id": "b5d3366a-8329-41e7-8ee8-ec0146d4cbe6",
+  "name": "BildungForschungIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Bildung und Forschung - Große Investitionen in Bildung und Forschung, in der Anfangszeit plus 50%, machen Deutschland wieder zur führenden Nation in diesem Bereich.Die Deutsche Mitte fordert KiTa-Plätze für alle Kinder, vorrangig ab drei Jahren, für jüngere nur auf Wunsch der Eltern. Die elterliche Kindererziehung bis zum Erreichen des dritten Lebensjahres wird gefördert. Schulklassen unter 20 Kinder, große Erweiterungen bei den Universitäten, aufgestockte Budgets in der Forschung. Deutlich bessere bauliche und technische Ausstattungen überall. Förderung betrieblicher Verzahnung und deutlich mehr wissenschaftliche Freiheit und Unabhängigkeit gehören unbedingt zusammen: mit transparenter Finanzierung sowie allgemein zugänglichen Forschungsergebnissen. Wir fordern die Abschaffung von Schulzwang und das Recht auf freies Lernen, Förderung selbstbestimmter, praxisbezogener, erlebnisorientierter Bildungsformen – mit Ergebniskontrolle. Wir fordern unabhängige, dem Gemeinwohl verpflichtete Mediennetzwerke mit transparenter Berichterstattung, die Abschaffung des Zwangsbeitrags zur Finanzierung des derzeitigen öffentlich-rechtlichen Rundfunks und ein Verbot der Zusammenarbeit zwischen Meldebehörden und Gebühreneinzug."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508225757865,
+  "fallbackIntent": false,
+  "events": []
+}

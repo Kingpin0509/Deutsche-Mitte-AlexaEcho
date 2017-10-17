@@ -1,0 +1,51 @@
+{
+  "id": "5e40245f-71bb-4a26-8bac-4658684303a4",
+  "name": "ArbeitSozialpolitikIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "de",
+          "title": "Arbeit und Soziales",
+          "subtitle": "Jeder arbeitsfähige Mensch geht einer Beschäftigung nach.",
+          "formattedText": "Jeder arbeitsfähige Mensch geht einer Beschäftigung nach. Ist diese unentgeltlich, erhält jeder gemeinnützig Tätige ein solidarisches Grundeinkommen, das deutlich über den Sozialleistungen von Hartz-IV liegt. Wir wollen einen Mindeststundenlohn von 10 Euro, unterhalb von 8,50 wird nicht diskutiert. Künftig erhalten alle Beschäftigungslosen eine Liste der in ihrer Umgebung tätigen gemeinnützigen Organisationen. Nach und nach, so schnell wie möglich, müssen sie ihren künftigen Arbeitsplatz auswählen und die Arbeit aufnehmen – oder eigene Ideen vorschlagen und bei amtlicher Zustimmung verwirklichen. Ziel: Sinnvolle Arbeitswelten für alle gemäß ihren Wünschen und Fähigkeiten frei von Existenzproblemen. Billiglöhne und Schein-Leiharbeit werden unterbunden. Volle Gleichberechtigung der Geschlechter bei Einstellung, Einkommen und Aufstiegschancen. Familien erhalten großzügige Förderung. Das Auseinanderdriften von Arm und Reich wird gestoppt und zurückgefahren. Die Solidarität aller Menschen untereinander wird gestärkt. \nDas vollständige Programm folgt in kürze...",
+          "image": {
+            "url": "https://i.vimeocdn.com/video/449146239_960.jpg"
+          },
+          "buttons": [
+            {
+              "title": "https://deutsche-mitte.de/arbeit-und-soziales/",
+              "openUrlAction": {
+                "url": "https://deutsche-mitte.de/arbeit-und-soziales/"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Arbeit und Soziales\nJeder arbeitsfähige Mensch geht einer Beschäftigung nach. Ist diese unentgeltlich, erhält jeder gemeinnützig Tätige ein solidarisches Grundeinkommen, das deutlich über den Sozialleistungen von Hartz-IV liegt. Wir wollen einen Mindeststundenlohn von 10 Euro, unterhalb von 8,50 wird nicht diskutiert. Künftig erhalten alle Beschäftigungslosen eine Liste der in ihrer Umgebung tätigen gemeinnützigen Organisationen. Nach und nach, so schnell wie möglich, müssen sie ihren künftigen Arbeitsplatz auswählen und die Arbeit aufnehmen – oder eigene Ideen vorschlagen und bei amtlicher Zustimmung verwirklichen. Ziel: Sinnvolle Arbeitswelten für alle gemäß ihren Wünschen und Fähigkeiten frei von Existenzproblemen. Billiglöhne und Schein-Leiharbeit werden unterbunden. Volle Gleichberechtigung der Geschlechter bei Einstellung, Einkommen und Aufstiegschancen. Familien erhalten großzügige Förderung. Das Auseinanderdriften von Arm und Reich wird gestoppt und zurückgefahren. Die Solidarität aller Menschen untereinander wird gestärkt. \nDas vollständige Programm folgt in kürze..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508231318,
+  "fallbackIntent": false,
+  "events": []
+}

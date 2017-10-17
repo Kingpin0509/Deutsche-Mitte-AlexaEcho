@@ -1,0 +1,32 @@
+{
+  "id": "ad442399-e76f-47eb-ac6f-b96b0053acd8",
+  "name": "VerteidigungIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Verteidigung - Eine Berufsarmee ist mit der bewährten Idee des Bürgers in Uniform schwer vereinbar. Die großen Herausforderungen der Zukunft, auch an die künftig erweiterte Freiheit und Mitsprache der Bürger, sind deshalb bei einer Wehrpflichtarmee besser aufgehoben: Deutschland kehrt zu diesem Modell zurück. Das bewährte Prinzip der Inneren Führung, das jedem Soldaten Gewissensfreiheit garantiert, wird wieder bestärkt. Bundeswehreinsätze im Inneren sind ausgeschlossen – auch in anderen Ländern. Wer gemäß seiner Gewissensfreiheit keinen Wehrdienst leistet, wird zu einem Sozialen oder Ökologischen Jahr nach eigener Wahl verpflichtet. Die Bundeswehr wird eine starke, gut gerüstete, mobile und vernetzte Verteidigungsarmee – mit voller Solidarität aller Bürger. Das vollständige Programm folgt in kürze..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508227346,
+  "fallbackIntent": false,
+  "events": []
+}

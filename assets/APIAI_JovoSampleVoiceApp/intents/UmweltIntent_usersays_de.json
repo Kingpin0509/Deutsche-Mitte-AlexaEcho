@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1d7398e2-aec4-4fdf-b3db-2aa23b0d269e",
+    "data": [
+      {
+        "text": "Umwelt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eb64bf6d-4dc3-4e05-a602-8d2124bb4075",
+    "data": [
+      {
+        "text": "Umweltprogramm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227708
+  },
+  {
+    "id": "81bdc0e1-4cb5-4d02-9e0d-3cce533e1be9",
+    "data": [
+      {
+        "text": "Naturschutz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227708
+  },
+  {
+    "id": "8e02c12f-5833-4191-a8a8-100641139cff",
+    "data": [
+      {
+        "text": "Umweltschutz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227708
+  },
+  {
+    "id": "8be67de5-61e8-4099-bcab-924e5201c6d2",
+    "data": [
+      {
+        "text": "Umwelt Naturschutz und Reaktorsicherheit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227708
+  }
+]

@@ -49,9 +49,13 @@
     }
   ],
   "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1507926924,
+  "lastUpdate": 1508228069,
   "fallbackIntent": false,
   "events": []
 }

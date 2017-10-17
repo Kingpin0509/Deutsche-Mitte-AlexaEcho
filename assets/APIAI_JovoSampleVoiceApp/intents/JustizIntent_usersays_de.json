@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ca3515a1-352d-46ca-ba7d-c9801c29446a",
+    "data": [
+      {
+        "text": "Rechtssystem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227759
+  },
+  {
+    "id": "5692b8cf-fc42-4a52-96d1-5a0b1de7181c",
+    "data": [
+      {
+        "text": "Justiz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508227759
+  }
+]

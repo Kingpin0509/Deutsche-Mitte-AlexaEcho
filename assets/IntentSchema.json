@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "intent": "Verbraucherschutzintent"
+    },
+    {
+      "intent": "Innenpolitikintent"
+    },
+    {
+      "intent": "Aussenpolitikintent"
+    },
+    {
+      "intent": "Umweltintent"
+    },
+    {
+      "intent": "Verkehrspolitikintent"
+    },
+    {
+      "intent": "Gesundheitintent"
+    },
+    {
+      "intent": "Arbeitsozialpolitikintent"
+    },
+    {
+      "intent": "Helloworldlaunchintent"
+    },
+    {
+      "intent": "Finanzpolitikintent"
+    },
+    {
+      "intent": "Helpintent"
+    },
+    {
+      "intent": "Helloworldintent"
+    },
+    {
+      "intent": "Einleitungintent"
+    },
+    {
+      "intent": "Verteidigungintent"
+    },
+    {
+      "intent": "Familienpolitikintent"
+    },
+    {
+      "intent": "Bildungforschungintent"
+    },
+    {
+      "intent": "Wirtschaftintent"
+    },
+    {
+      "intent": "Entwicklungintent",
+      "slots": [
+        {
+          "name": "dateslot",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "Justizintent"
+    }
+  ]
+}

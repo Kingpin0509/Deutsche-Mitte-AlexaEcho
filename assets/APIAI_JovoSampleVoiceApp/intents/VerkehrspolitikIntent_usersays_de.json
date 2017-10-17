@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ac5612e1-fae0-44b3-a2ba-7586bbb32c46",
+    "data": [
+      {
+        "text": "Verkehrspolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8e20c115-a7b1-46ce-a99c-4b0598440523",
+    "data": [
+      {
+        "text": "Verkehr",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227498
+  },
+  {
+    "id": "6fb42aaa-0312-4a42-aa1f-8ef7624ae846",
+    "data": [
+      {
+        "text": "Infrastruktur",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227498
+  },
+  {
+    "id": "d9f60cd1-3112-4738-a0bc-0bf186cf91e3",
+    "data": [
+      {
+        "text": "Nahverkehr",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227498
+  },
+  {
+    "id": "df5fa11f-00cd-4199-84ee-0569c3f5fcd6",
+    "data": [
+      {
+        "text": "Bus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227498
+  },
+  {
+    "id": "5e61d51e-d3e7-4da8-a6cf-45973943431d",
+    "data": [
+      {
+        "text": "Bahn",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227498
+  },
+  {
+    "id": "507724a4-a069-41df-8867-fbcf76111732",
+    "data": [
+      {
+        "text": "Schiene",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227498
+  },
+  {
+    "id": "1c51c77a-c92c-4e1e-9c23-8309e81853f8",
+    "data": [
+      {
+        "text": "Strassen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227498
+  }
+]

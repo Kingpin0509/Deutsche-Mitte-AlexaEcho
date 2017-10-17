@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d88e1b49-554e-4cd7-87ff-a08e72f4e29d",
+    "data": [
+      {
+        "text": "Wirtschaft",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3e3e133e-0858-486c-ac47-4e973841c22c",
+    "data": [
+      {
+        "text": "Wirtschaftsprogramm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508227194
+  }
+]

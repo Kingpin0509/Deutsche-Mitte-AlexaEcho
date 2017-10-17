@@ -1,0 +1,50 @@
+[
+  {
+    "id": "b2ff0a43-dc20-48cd-ae8f-11b17aace28c",
+    "data": [
+      {
+        "text": "Programmpunkte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227860
+  },
+  {
+    "id": "dc386524-d78c-4b8c-bae5-1130b5139497",
+    "data": [
+      {
+        "text": "Ressorts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227860
+  },
+  {
+    "id": "f5f5ac54-a14e-4f17-8e31-a1f8deb3a053",
+    "data": [
+      {
+        "text": "Themen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227860
+  },
+  {
+    "id": "54fede40-2dd5-461d-b135-e254ce7a86a5",
+    "data": [
+      {
+        "text": "Hilfe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227860
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "id": "120448f1-a528-4709-90ce-71b1cd4b41b3",
+  "name": "AussenpolitikIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Außenpolitik - Mit Augenmaß, gut abgestimmt mit Partnern und Freunden und ohne großen Wirbel verlässt Deutschland die Euro-Gruppe – nicht als erstes Land, um Missstimmung zu vermeiden. Der Vertrag von Lissabon, über den die Bevölkerung nicht abstimmen durfte, wird nachträglich einem Volksentscheid unterworfen und im Ablehnungsfalle selbstverständlich aufgekündigt. Gleichzeitig legt die Bundesregierung abgesprochene Vorschläge für eine umfassende EU-Reform vor. Europa wird gestärkt und deutlich demokratisiert, mit mehr Mitbestimmung durch die Euro-Völker, Wahl aller Gremien, Beendigung der Entscheidungsmacht der jetzigen EU-Kommission. Die Deutsche Mitte fördert die Sanierungskraft hoch verschuldeter Euro-Länder. Zahlungen an verschuldete Euro-Länder erfolgen nur noch gegen dreifache Sicherheitsleistung und ab Förderbeträgen von insgesamt mehr als 20% des betreffenden Bundeshaushalts ausschließlich nach Zustimmung der eigenen und der Empfänger-Bevölkerung. Mit der Förderung internationaler Gewerkschaftspolitik gehen wir auf die große Mehrzahl der Menschen in aller Welt zu. Keine Abenteuer-Politik bei Regierungswechseln in anderen Ländern (Libyen, Syrien), grundsätzliche Beachtung der Nichteinmischung in die inneren Angelegenheiten anderer Länder. Die Deutsche Mitte tritt weltweit für gerechten Frieden ein.Gerechten Frieden in Nahost fördern wir, eine deutsche Staatsräson für die Sicherheit Israels kann und wird es nicht geben. Ungerechte und sinnlose Sanktionen werden beendet. Deutsche Soldaten werden aus dem Nicht-Nato-Ausland („out of area“) abgezogen und verbleiben fortan ausschließlich im Nato-Gebiet. Gleichzeitig werden schrittweise binnen fünf Jahren alle ausländischen Truppen aus Deutschland abgezogen. Zur Friedenssicherung wird Deutschland seine Truppen aus der Nato-Struktur so lange herausziehen, bis die Nato sämtliche Einsätze außerhalb des Nato-Gebiets beendet hat. Sollten jedoch einzelne Nato-Partner ohne Zustimmung des UN-Sicherheitsrates noch weitere Völker überfallen und Kriege anzetteln, wird sich die Deutsche Mitte für einen Austritt aus der Nato einsetzen. Truppeneinsätze benötigen künftig bessere Strategien. Wir sind und bleiben enge Freunde und Verbündete unserer EU-Nachbarn und Nato-Partner, diese Beziehungen wollen wir vorrangig besonders pflegen, vor allem im Interesse der Völker – doch deutsche Außenpolitik kann mehr als nur Bündnis- oder EU-Politik.Mit Russland und anderen Staaten oder Staatengruppen werden friedenswahrende Rückversicherungsverträge abgeschlossen."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508231171,
+  "fallbackIntent": false,
+  "events": []
+}

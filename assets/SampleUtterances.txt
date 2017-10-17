@@ -1,0 +1,94 @@
+Verbraucherschutzintent	ernährung
+Verbraucherschutzintent	ernährung landwirtschaft und verbraucherschutz
+Verbraucherschutzintent	landwirtschaft
+Verbraucherschutzintent	verbraucherschutz
+Innenpolitikintent	innenpolitik
+Innenpolitikintent	inneres
+Innenpolitikintent	polizei
+Innenpolitikintent	sicherheit
+Aussenpolitikintent	amerika
+Aussenpolitikintent	aussenpolitik
+Aussenpolitikintent	außenpolitik
+Aussenpolitikintent	china
+Aussenpolitikintent	eu
+Aussenpolitikintent	russland
+Umweltintent	naturschutz
+Umweltintent	umwelt
+Umweltintent	umwelt naturschutz und reaktorsicherheit
+Umweltintent	umweltprogramm
+Umweltintent	umweltschutz
+Verkehrspolitikintent	bahn
+Verkehrspolitikintent	bus
+Verkehrspolitikintent	infrastruktur
+Verkehrspolitikintent	nahverkehr
+Verkehrspolitikintent	schiene
+Verkehrspolitikintent	strassen
+Verkehrspolitikintent	verkehr
+Verkehrspolitikintent	verkehrspolitik
+Gesundheitintent	gesundheit
+Gesundheitintent	gesundheitspolitik
+Gesundheitintent	gesundheitssystem
+Gesundheitintent	krankenversicherung
+Arbeitsozialpolitikintent	arbeit
+Arbeitsozialpolitikintent	arbeit und soziales
+Arbeitsozialpolitikintent	arbeitslose
+Arbeitsozialpolitikintent	arbeitsmarkt
+Arbeitsozialpolitikintent	sozialpolitik
+Helloworldlaunchintent	menü
+Helloworldlaunchintent	neustarten
+Helloworldlaunchintent	zum anfang
+Helloworldlaunchintent	zurück
+Finanzpolitikintent	bank
+Finanzpolitikintent	bankenkartell
+Finanzpolitikintent	banker
+Finanzpolitikintent	finanzen
+Finanzpolitikintent	finanzpolitik
+Finanzpolitikintent	geldschöpfung
+Finanzpolitikintent	geldsystem
+Finanzpolitikintent	kapital
+Finanzpolitikintent	zinsen
+Helpintent	hilfe
+Helpintent	programmpunkte
+Helpintent	ressorts
+Helpintent	themen
+Helloworldintent	menu
+Helloworldintent	neustarten
+Helloworldintent	zurück
+Helloworldintent	zurück zum anfang
+Einleitungintent	deutsche mitte
+Einleitungintent	einführung
+Einleitungintent	einleitung
+Einleitungintent	überblick
+Verteidigungintent	bundeswehr
+Verteidigungintent	krieg
+Verteidigungintent	landesverteidigung
+Verteidigungintent	nato
+Verteidigungintent	verteidigung
+Verteidigungintent	verteidigungspolitik
+Familienpolitikintent	familie
+Familienpolitikintent	familienpolitik
+Familienpolitikintent	frauen
+Familienpolitikintent	jugend
+Familienpolitikintent	kinder
+Familienpolitikintent	kindergeld
+Familienpolitikintent	senioren
+Bildungforschungintent	ausbildung
+Bildungforschungintent	bildung
+Bildungforschungintent	bildung und forschung
+Bildungforschungintent	bildungspolitik
+Bildungforschungintent	bildungssystem
+Bildungforschungintent	forschung
+Bildungforschungintent	lehrer
+Bildungforschungintent	schule
+Bildungforschungintent	studium
+Bildungforschungintent	universitäten
+Wirtschaftintent	wirtschaft
+Wirtschaftintent	wirtschaftsprogramm
+Entwicklungintent	{dateslot} welt
+Entwicklungintent	afrika
+Entwicklungintent	entwicklung
+Entwicklungintent	entwicklungshilfe
+Entwicklungintent	entwicklungspolitik
+Entwicklungintent	hunger
+Justizintent	justiz
+Justizintent	rechtssystem

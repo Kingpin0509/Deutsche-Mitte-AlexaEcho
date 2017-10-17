@@ -1,0 +1,32 @@
+{
+  "id": "a50861ac-8168-4f2f-9bff-208ddf031758",
+  "name": "EinleitungIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Die Deutsche Mitte hat sich ein gewaltiges Programm gegeben. Wir gehen weiter als die Konkurrenz. Unsere Ziele sind ohne besonderen Einsatz und persönliche Opfer nicht erreichbar. Je umfassender die Mitwirkung, desto höher die persönlichen Anforderungen. Vorstände und Kandidaten bei Wahlen müssen die Gewähr bieten, dass sie die selbstgestellten Aufgaben erfüllen können. Deshalb werden Aus- und Fortbildungen im fachlichen und persönlichen Bereich immer wichtiger. Die inneren Strukturen in Partei und anderen Organisationsformen müssen mitwachsen. Wenn Leistungsträger aus der Mitte der deutschen Gesellschaft zu uns kommen, wollen sie angemessene Ansprechpartner finden. Die Deutsche Mitte will gerechten und fairen Ausgleich zwischen allen Menschen und gruppen. Veränderung geht nur gemeinsam. Was möchtest du sonst noch wissen?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508229890,
+  "fallbackIntent": false,
+  "events": []
+}

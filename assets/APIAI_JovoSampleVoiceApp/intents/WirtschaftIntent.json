@@ -1,0 +1,32 @@
+{
+  "id": "bb0df63d-2292-4161-a65d-b39a180e2293",
+  "name": "WirtschaftIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Wirtschaft - Unternehmen, die sozial, ökologisch, menschenfreundlich und flexibel arbeiten, erhalten Steuererleichterungen. Familienunternehmen, Genossenschaften und Stiftungen sowie Mitarbeiterbeteiligung werden ebenso gefördert wie Solidität und Stabilität der Unternehmensfinanzen – auch durch die Bildung stiller Reserven. Förderung von lokaler Wirtschaft und handwerklicher Eigenproduktion. Förderung von Open-Source-Ökonomie. Neue Anreize für Superreiche und Großkonzerne, zum Gemeinwohl beizutragen (Mäzenatentum). Geeignete, neue Technologien und Erfindungen werden gefördert und schneller in Produkte umgesetzt. Unterdrückung von Erfindungen aus eigensüchtigen Motiven sowie Kartellbildung werden nicht mehr geduldet und wirksam unterbunden. Eingebaute Produktalterung (Obsoleszenz) wird ein Straftatbestand, die Mindestgarantiefrist auf drei Jahre verlängert, so fördern wir Wertarbeit und den Verzicht auf Billigprodukte. Schutz vor Spionage und Benachteiligung im Ausland, besserer Übernahmeschutz, Ende sinnloser internationaler Sanktionspolitik. Das vollständige Programm folgt in kürze..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508227194,
+  "fallbackIntent": false,
+  "events": []
+}

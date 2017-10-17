@@ -1,0 +1,86 @@
+[
+  {
+    "id": "f44c4186-2ef2-4030-a59a-3d90d7296623",
+    "data": [
+      {
+        "text": "Kinder",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508226014
+  },
+  {
+    "id": "62967bb5-6b9e-4def-83d6-4e5b7134ff16",
+    "data": [
+      {
+        "text": "Familienpolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508226014
+  },
+  {
+    "id": "50ab7075-7e11-4d52-aca8-d16e4d886b40",
+    "data": [
+      {
+        "text": "Jugend",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508226014
+  },
+  {
+    "id": "f5ebc91d-a81a-41be-afc2-bf775847dd6b",
+    "data": [
+      {
+        "text": "Kindergeld",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508226014
+  },
+  {
+    "id": "95790f3c-44a0-4db9-8421-7782eeb1f592",
+    "data": [
+      {
+        "text": "Frauen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508226014
+  },
+  {
+    "id": "22b61280-65cf-4dd7-9a79-15d5ee921da3",
+    "data": [
+      {
+        "text": "Senioren",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508226014
+  },
+  {
+    "id": "daaf71eb-a0a0-4912-97a1-ebd906602e32",
+    "data": [
+      {
+        "text": "Familie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508226014
+  }
+]

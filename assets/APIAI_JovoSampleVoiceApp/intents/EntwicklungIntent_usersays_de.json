@@ -1,0 +1,80 @@
+[
+  {
+    "id": "93d69e5a-81a1-49a9-9cbf-f955169e713b",
+    "data": [
+      {
+        "text": "Entwicklung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508226186
+  },
+  {
+    "id": "9657640b-c487-4bb4-b0a3-67bc0457a257",
+    "data": [
+      {
+        "text": "Entwicklungshilfe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508229401
+  },
+  {
+    "id": "bf5c2ec1-ddab-4f4e-a54f-47cc8fc7c9e9",
+    "data": [
+      {
+        "text": "Hunger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508229401
+  },
+  {
+    "id": "0a3053ea-7926-4dc9-bc2f-8b7aadee15e2",
+    "data": [
+      {
+        "text": "Dritte",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " Welt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508229401
+  },
+  {
+    "id": "a646ea0b-2bb1-46fd-8c12-15d43390cf92",
+    "data": [
+      {
+        "text": "Afrika",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508229401
+  },
+  {
+    "id": "d9c27163-b06c-4e39-9f21-47a3939b171e",
+    "data": [
+      {
+        "text": "Entwicklungspolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508229401
+  }
+]

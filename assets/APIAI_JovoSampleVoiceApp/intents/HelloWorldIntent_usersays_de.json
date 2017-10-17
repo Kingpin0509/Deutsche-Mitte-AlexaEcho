@@ -1,0 +1,50 @@
+[
+  {
+    "id": "b18a04a2-4a18-4e8d-b1a7-3f6433cc8a8c",
+    "data": [
+      {
+        "text": "Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507928998
+  },
+  {
+    "id": "56ea9455-a1fe-406c-9be7-13f346364a73",
+    "data": [
+      {
+        "text": "Neustarten",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507928998
+  },
+  {
+    "id": "1e1c4e86-1c33-4079-9349-74daaa2a8e25",
+    "data": [
+      {
+        "text": "Zurück",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507928998
+  },
+  {
+    "id": "c1cceee4-58a4-4db1-bb1e-8baf4d5d00cf",
+    "data": [
+      {
+        "text": "Zurück zum Anfang",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507928998
+  }
+]

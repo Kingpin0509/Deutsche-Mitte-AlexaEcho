@@ -1,0 +1,40 @@
+{
+  "id": "df7f20f9-e745-49e5-84a5-17caaab8ee31",
+  "name": "EntwicklungIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d724f9bd-db18-45ba-856a-e80e7d2f7b8b",
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Wirtschaftliche Zusammenarbeit und Entwicklung - Fairer Handel mit allen Völkern und Nationen. Internationale Unterstützungsleistungen werden künftig zusätzlich in verantwortlichen Patenschaften organisiert. Diese müssen den Interessen und Bedürfnissen der empfangenden Völker dienen. Die Patenschaften werden neutral kontrolliert, bewertet und die Ergebnisse veröffentlicht."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508229401,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "8c090333-cc2a-487c-b2f8-f80eadc7b5b2",
+    "data": [
+      {
+        "text": "Einleitung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ea7a6041-98ab-4f4c-afee-98a0038f78fb",
+    "data": [
+      {
+        "text": "Überblick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508229890
+  },
+  {
+    "id": "ac5a3b82-073c-4bb8-b9a3-4d0bab29afa0",
+    "data": [
+      {
+        "text": "Deutsche Mitte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508229890
+  },
+  {
+    "id": "31e75a92-9f1d-4eb1-bf6c-901eef3af1f2",
+    "data": [
+      {
+        "text": "Einführung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508229890
+  }
+]

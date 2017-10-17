@@ -1,26 +1,4 @@
 {
-  "userSays": [
-    {
-      "id": "b8838657-f7fc-4c82-b204-7c22b1ea2fef",
-      "data": [
-        {
-          "text": "say hi"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "eccd61f8-77ef-49f1-b86c-500b66a56791",
-      "data": [
-        {
-          "text": "say hello"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    }
-  ],
   "id": "91ac1f25-e5eb-4178-acf7-0729117960d6",
   "name": "HelloWorldIntent",
   "auto": true,
@@ -33,14 +11,20 @@
       "messages": [
         {
           "type": 0,
-          "speech": []
+          "lang": "de",
+          "speech": "Willkommen bei der Deutschen Mitte. Um mehr über das Programm der Deutschen Mitte zu erfahren sage Einleitung. Oder nenne ein Politikressort um mehr zu erfahren z.B. Innenpolitik, Verteidigung oder Wirtschaft. Oder möchtest du eine Auflistung aller Programmschwerpunkte? Dann sage Hilfe."
         }
-      ]
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
+  "lastUpdate": 1507928998,
   "fallbackIntent": false,
   "events": []
 }

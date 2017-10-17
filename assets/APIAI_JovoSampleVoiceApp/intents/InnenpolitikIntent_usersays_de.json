@@ -1,0 +1,50 @@
+[
+  {
+    "id": "e0bcfbd7-579a-4062-9248-6a26fa4d1bec",
+    "data": [
+      {
+        "text": "Innenpolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e156ada1-fc81-4040-b8ba-dde613f015f1",
+    "data": [
+      {
+        "text": "Inneres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508227810
+  },
+  {
+    "id": "cdb0f50c-8d04-4e48-8a05-93809f138143",
+    "data": [
+      {
+        "text": "Polizei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227810
+  },
+  {
+    "id": "1bba8fd4-a9f1-4f14-8fb2-0f5437c36b41",
+    "data": [
+      {
+        "text": "Sicherheit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227810
+  }
+]

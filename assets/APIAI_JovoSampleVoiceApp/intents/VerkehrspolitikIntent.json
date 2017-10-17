@@ -1,0 +1,32 @@
+{
+  "id": "343387ed-ee7e-4863-9497-f7a9cbe9b852",
+  "name": "VerkehrspolitikIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Verkehr, Bau und Stadtentwicklung - Voll-Ausbau der Bahn zum großen Logistik-Dienstleister, keine Privatisierung, Zusammenarbeit mit Privatfirmen, deutlich weniger und kleinere LKW auf den Straßen. Großprojekte mit enger Einbindung der Bevölkerung. Grünere Städte, „essbare Städte“ (Nutzpflanzen für die Allgemeinheit auf öffentlichen Grünflächen). Ökologisches Bauen mit modernen Methoden und Techniken nach baubiologischen Standards. Reform der Energieeffizienzpolitik. Förderung regionaler Selbstverwaltung, keine Privatisierung kommunaler und staatlicher Basisaufgaben! Regional unabhängige Wasser-, Strom- und Wärmeversorgung."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508227498,
+  "fallbackIntent": false,
+  "events": []
+}

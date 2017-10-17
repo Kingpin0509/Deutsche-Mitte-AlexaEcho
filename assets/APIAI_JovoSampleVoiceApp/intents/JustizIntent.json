@@ -1,0 +1,32 @@
+{
+  "id": "fde2ac6c-b72b-4269-9d84-f5b8fcb64725",
+  "name": "JustizIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Justiz - Recht darf kein Privileg der Wohlhabenden oder Mächtigen sein. Gerechtigkeit soll vor Gericht siegen. Ausbau des Justizwesens, mehr Personal, bessere Gebäude und Ausstattungen, weniger machtpolitischer Einfluss, mehr Unabhängigkeit, schnellere Verfahren. Bürgerrechte und –schutz sind deutlich zu stärken."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508227759,
+  "fallbackIntent": false,
+  "events": []
+}

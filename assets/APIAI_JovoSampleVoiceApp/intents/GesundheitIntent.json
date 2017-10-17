@@ -1,0 +1,32 @@
+{
+  "id": "58b2a07b-b826-43f0-9dcf-05c76de72c43",
+  "name": "GesundheitIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Gesundheit - Die Deutsche Mitte fördert ganzheitliche Heilkunde und alternative Medizin. Überteuerte Kartellmedizin wird durch wirkungsvollere, höherwertige und preisgünstigere natürliche Methoden ersetzt. Aufbau ganzheitlicher Gesundheitszentren und Förderung von Solidargemeinschaften und alternativer Absicherungen im Krankheitsfall mit dem Recht auf freie Therapiewahl. Reform und Weiterentwicklung des Nahrungsmittelstandards Codex Alimentarius zur nachhaltigen und ökologischen Ausrichtung. Kritischer Umgang mit Impfungen, vor allem bei Kindern, Antibiotika, Chemotherapie, Quecksilber (Amalgam-Zahnfüllungen!) und Aluminium. Strengere Grenzwerte für Elektrosmog und Radioaktivität. In die notwendige Forschung, Standardisierung und überfällige Gesamtreform wird zügig und kräftig investiert, insbesondere auch in der Wissenschaft. Der Einfluss weniger Pharma-Riesen wird ebenso zurückgedrängt wie die Profitgier im Gesundheitswesen. Endlich bessere Bezahlung für Pflegeberufe und Hebammen!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508227997,
+  "fallbackIntent": false,
+  "events": []
+}

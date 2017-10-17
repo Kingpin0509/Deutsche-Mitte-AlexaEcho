@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01c86509-58f6-46fa-9e45-2ec5c0070a6d",
+    "data": [
+      {
+        "text": "Gesundheit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "20bb9019-289d-4a77-b652-fbf1dd657296",
+    "data": [
+      {
+        "text": "Gesundheitssystem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1508227997
+  },
+  {
+    "id": "a846da0c-82e8-4108-88f5-f9a76d917fe2",
+    "data": [
+      {
+        "text": "Gesundheitspolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227997
+  },
+  {
+    "id": "32395136-d010-40ac-b213-6442406425d5",
+    "data": [
+      {
+        "text": "Krankenversicherung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508227997
+  }
+]

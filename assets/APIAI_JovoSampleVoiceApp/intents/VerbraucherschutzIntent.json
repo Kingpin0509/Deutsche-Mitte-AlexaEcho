@@ -1,0 +1,32 @@
+{
+  "id": "02635e44-8def-43bb-b177-7379f27816c3",
+  "name": "VerbraucherschutzIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Ernährung, Landwirtschaft und Verbraucherschutz - Die Deutsche Mitte fordert das Recht auf natürlich gesunde Lebensmittel. Genmanipulierte Produkte gehören nicht in die Nahrungskette! Schrittweise Umstellung auf ökologische, pestizid- und gentechnikfreie Landwirtschaft (Höchststandard: Demeter.) Dies geschieht freiwillig und mit steuerlicher Förderung. Junge Menschen helfen dabei in ihrem sozialen/ökologischen Jahr und erlernen so den Bezug zur Natur. Förderung nachhaltiger Land- und Forstbewirtschaftung, Schutz und Regeneration von Böden mit nachhaltigem Humusaufbau. Bienenvölker werden als natürliche Lebensgrundlage gesetzlich besser geschützt. Bewahrung und Förderung altbewährten Saatgutes. Keine Patentrechte auf Lebewesen. Wir fordern artgerechte Tierhaltung und Fütterung und somit eine Abschaffung der Massentierhaltung. Dabei erfolgen sämtliche Umstellungen in enger Abstimmung mit allen Beteiligten. Wasserversorgung und andere Naturgüter gehören nicht in Konzernhände! Lobby-Eingriffe in Verbraucher- und Naturschutz werden verboten, die Unabhängigkeit der Forschung wird bestärkt und kontrolliert."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508227603,
+  "fallbackIntent": false,
+  "events": []
+}

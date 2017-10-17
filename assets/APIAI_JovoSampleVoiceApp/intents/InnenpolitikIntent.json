@@ -1,0 +1,32 @@
+{
+  "id": "10addeb8-ea03-4969-a1ee-170fac293c23",
+  "name": "InnenpolitikIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Innenpolitik - Wir wollen mehr und besser bezahlte Polizisten, die wir persönlich kennen: als „Revierbeamte“ mit erhöhter Straßenpräsenz. Geheimdienste sollen besser und ehrlicher zum Wohl der Bevölkerung arbeiten, das allein sichert das Land. Ausländer wollen wir künftig, wie alle anderen Staaten auch, besser aussuchen: nach bundesweit einheitlichen Maßstäben, die helfen, die Aussicht auf erfolgreiche Integration und Einbürgerung vorab zu bewerten. Wir wollen Migranten künftig auch viel besser respektieren, behandeln und integrieren: schulen, in Lohn und Brot bringen, schneller einbürgern. Migranten ohne Integrationsbereitschaft werden zurückgewiesen. Die Bildung von Migrantenvierteln und aller kriminellen Banden wird tatkräftig unterbunden. Null Toleranz bei rassistischen Übergriffen. In berechtigten Einzelfällen, in denen Asylsuchende in ihren Herkunftsländern eine akute Bedrohung ihrer Menschenrechte erleiden oder befürchten müssen, erhält die Bundesregierung eine verbesserte Handlungsbasis.Mehr Volksinitiativen und Volksentscheide bei wichtigen Fragen in Bund und Land. Staatliches Entscheiden und Handeln muss viel besser öffentlich kontrollierbar werden! Den Überwachungsstaat werden wir beenden – und Spionage von außen nicht mehr dulden."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508227810,
+  "fallbackIntent": false,
+  "events": []
+}

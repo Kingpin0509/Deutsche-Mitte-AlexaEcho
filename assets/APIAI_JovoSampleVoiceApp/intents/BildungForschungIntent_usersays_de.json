@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a39ecbef-5692-4bc0-ba5c-cf71190fc4a9",
+    "data": [
+      {
+        "text": "Bildungspolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ceaa6396-d112-42c6-a58e-0d3366a8d87e",
+    "data": [
+      {
+        "text": "Bildung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b9276ac9-72d2-4348-84b4-a4ac06b75ae1",
+    "data": [
+      {
+        "text": "Universitäten",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c390222f-3b86-4067-a21d-bdf48f49adff",
+    "data": [
+      {
+        "text": "Studium",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "302ee73e-34c3-4236-b0fc-b893f36c12ff",
+    "data": [
+      {
+        "text": "Forschung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "de56a8a8-fc9f-4b26-ac76-9acc708133bc",
+    "data": [
+      {
+        "text": "Ausbildung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25787ba6-9943-4579-825e-14e66953aea8",
+    "data": [
+      {
+        "text": "Lehrer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "428cc34e-fea4-46da-ad70-1f816c6a2f8f",
+    "data": [
+      {
+        "text": "Schule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e1a5b23d-8eac-4c92-b557-a75acde8c281",
+    "data": [
+      {
+        "text": "Bildungssystem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9e5e0ac6-baec-470c-8e49-c9047a1e2e7f",
+    "data": [
+      {
+        "text": "Bildung und Forschung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

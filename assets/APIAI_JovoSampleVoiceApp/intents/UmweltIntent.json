@@ -1,0 +1,32 @@
+{
+  "id": "2edbaedf-ece0-4176-b12a-bc8f779328b9",
+  "name": "UmweltIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Umwelt, Naturschutz und Reaktorsicherheit - Die Deutsche Mitte sieht den Menschen in der hohen Verantwortung, die natürlichen Grundlagen für alle Lebensformen zu bewahren. Darum erhalten Umwelt- und Naturschutz bedeutenden Vorrang. Stärkung und Weiterentwicklung der Nationalen Naturlandschaften, Verbesserung der Betreuungssituation in Schutzgebieten, Förderung nachhaltiger und naturschonender Landnutzung, Schaffung lokaler Stoff- und Energiekreisläufe, Abschaffung des Anschlusszwangs an die Kanalisation bei kontrolliertem Betrieb eigener Abwasserreinigung, Umstieg von zentraler auf dezentrale Energieversorgung mit Ausbau regenerativer und alternativer Energieversorgung. Ausstieg aus der Atomkraft. Verbot der künstlichen Beeinflussung der Atmosphäre. Umweltverbrechen werden stärker verfolgt und bestraft, vor allem was die Bereiche Erdöl, Erdgas und Radioaktivität angeht."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508227708,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "26a8d34a-5f3a-4a8b-a44a-73ef4c91adfa",
+    "data": [
+      {
+        "text": "Aussenpolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "095eb748-5474-406e-a1d3-02600af8000e",
+    "data": [
+      {
+        "text": "Außenpolitik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508231171
+  },
+  {
+    "id": "d06141a0-04d9-4c93-a0d5-0bf2f04960c5",
+    "data": [
+      {
+        "text": "China",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508231171
+  },
+  {
+    "id": "a7b473ae-4e13-4db8-9e27-147329d3f124",
+    "data": [
+      {
+        "text": "EU",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508231171
+  },
+  {
+    "id": "ec0fe0c7-084a-4d44-b0e0-76b9a60c0288",
+    "data": [
+      {
+        "text": "Amerika",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508231171
+  },
+  {
+    "id": "33c35da2-d08a-4ad8-8e1e-9b22604f1480",
+    "data": [
+      {
+        "text": "Russland",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508231171
+  }
+]

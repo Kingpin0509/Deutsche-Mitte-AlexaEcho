@@ -1,0 +1,32 @@
+{
+  "id": "b0616657-049d-48e7-b7e2-8c56e336fe5f",
+  "name": "FamilienpolitikIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": "Familie, Senioren, Frauen und Jugend - 50% mehr Kindergeld, Verlängerung des Elterngeldes auf drei Jahre – und endlich genügend Kitas für alle! Förderung der natürlichen Familienbeziehung Mutter-Kind-Vater: Intakte Familien in geordneten Verhältnissen, in denen verheiratete, leibliche Eltern ihre eigenen Kinder erziehen, erhalten € 5.000 für das erste Kind, € 10.000 für das zweite und noch einmal € 10.000 für das dritte Kind. Steuerfrei, bar, pfändungssicher und zusätzlich zu allen anderen Leistungen. Homo-Ehe: ja! Förderung der individuellen, spontanen und natürlichen Geburt, Aufwertung des Berufs der Hebammen, mehr Unterstützung für junge Mütter. Frauen erhalten Hilfe für den Wiedereinstieg in den Beruf. Bessere Personalausstattung von Erziehungseinrichtungen. „Gender Mainstreaming“, die Gleichmachung der Geschlechter, wird nicht mehr gefördert. Mann und Frau sind und bleiben Träger gleicher unveräußerlicher Rechte. Die Deutsche Mitte fördert Mehrgenerationsgemeinschaften, in denen ältere Menschen geachtet werden und in der Gemeinschaft ihren Wünschen und Fähigkeiten entsprechend Aufgaben bis zu ihrem Lebensende erfüllen. Senioren werden auf Wunsch besser betreut, mit deutlich mehr Personal. Jugendarbeit vertritt die Interessen der Jugend bei der Entdeckung und Entwicklung ihrer Persönlichkeit und fördert Selbstorganisation, Eigenaktivität und verantwortungsvolle Teilhabe der Jugendlichen an der Gemeinschaft."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508226014,
+  "fallbackIntent": false,
+  "events": []
+}
