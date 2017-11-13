@@ -1,227 +1,263 @@
 {
-  "intents": [
-    {
-      "name": "AMAZON.CancelIntent",
-      "samples": []
-    },
-    {
-      "name": "AMAZON.HelpIntent",
-      "samples": []
-    },
-    {
-      "name": "AMAZON.StopIntent",
-      "samples": []
-    },
-    {
-      "name": "ArbeitSozialpolitikIntent",
-      "samples": [
-        "Sozialpolitik",
-        "Arbeitsmarkt",
-        "Arbeitslose",
-        "Arbeit",
-        "Arbeit und Soziales"
-      ],
-      "slots": []
-    },
-    {
-      "name": "AussenpolitikIntent",
-      "samples": [
-        "Aussenpolitik",
-        "Russland",
-        "Amerika",
-        "USA",
-        "EU",
-        "China",
-        "Naher Osten",
-        "Außenpolitik"
-      ],
-      "slots": []
-    },
-    {
-      "name": "BildungForschungIntent",
-      "samples": [
-        "Bildung und Forschung",
-        "Bildungspolitik",
-        "Bildungssystem",
-        "Schule",
-        "Lehrer",
-        "Ausbildung",
-        "Forschung",
-        "Studium",
-        "Universitäten",
-        "Bildung"
-      ],
-      "slots": []
-    },
-    {
-      "name": "CancelIntent",
-      "samples": [
-        "Abbruch",
-        "Abbrechen"
-      ],
-      "slots": []
-    },
-    {
-      "name": "EinleitungIntent",
-      "samples": [
-        "Einleitung",
-        "Einführung",
-        "Programm",
-        "Deutsche Mitte",
-        "Überblick"
-      ],
-      "slots": []
-    },
-    {
-      "name": "EntwicklungIntent",
-      "samples": [
-        "Entwicklungspolitik",
-        "Afrika",
-        "Dritte Welt",
-        "Hunger",
-        "Entwicklungshilfe",
-        "Entwicklung"
-      ],
-      "slots": []
-    },
-    {
-      "name": "FamilienpolitikIntent",
-      "samples": [
-        "Familie",
-        "Kinder",
-        "Senioren",
-        "Frauen",
-        "Kindergeld",
-        "Jugend",
-        "Familienpolitik"
-      ],
-      "slots": []
-    },
-    {
-      "name": "FinanzpolitikIntent",
-      "samples": [
-        "Geldsystem",
-        "Bank",
-        "Kapital",
-        "Bankenkartell",
-        "Banker",
-        "Zinsen",
-        "Geldschöpfung",
-        "Finanzpolitik",
-        "Finanzen"
-      ],
-      "slots": []
-    },
-    {
-      "name": "GesundheitIntent",
-      "samples": [
-        "Gesundheit",
-        "Krankenversicherung",
-        "Gesundheitspolitik",
-        "Gesundheitssystem"
-      ],
-      "slots": []
-    },
-    {
-      "name": "HelloWorldIntent",
-      "samples": [
-        "Zurück zum Anfang",
-        "Zurück",
-        "Neustarten",
-        "Menu"
-      ],
-      "slots": []
-    },
-    {
-      "name": "HelpIntent",
-      "samples": [
-        "Hilfe",
-        "Programmpunkte",
-        "Themen",
-        "Ressorts"
-      ],
-      "slots": []
-    },
-    {
-      "name": "InnenpolitikIntent",
-      "samples": [
-        "Innenpolitik",
-        "Sicherheit",
-        "Polizei",
-        "Inneres"
-      ],
-      "slots": []
-    },
-    {
-      "name": "JustizIntent",
-      "samples": [
-        "Justiz",
-        "Rechtssystem"
-      ],
-      "slots": []
-    },
-    {
-      "name": "StopIntent",
-      "samples": [
-        "Stop",
-        "Beenden"
-      ],
-      "slots": []
-    },
-    {
-      "name": "UmweltIntent",
-      "samples": [
-        "Umwelt Naturschutz und Reaktorsicherheit",
-        "Umweltschutz",
-        "Naturschutz",
-        "Umweltpolitik",
-        "Umweltprogramm"
-      ],
-      "slots": []
-    },
-    {
-      "name": "VerbraucherschutzIntent",
-      "samples": [
-        "Ernährung Landwirtschaft und Verbraucherschutz",
-        "Verbraucherschutz",
-        "Landwirtschaft",
-        "Ernährung"
-      ],
-      "slots": []
-    },
-    {
-      "name": "VerkehrspolitikIntent",
-      "samples": [
-        "Strassen",
-        "Schiene",
-        "Bahn",
-        "Bus",
-        "Nahverkehr",
-        "Infrastruktur",
-        "Verkehrspolitik",
-        "Verkehr"
-      ],
-      "slots": []
-    },
-    {
-      "name": "VerteidigungIntent",
-      "samples": [
-        "Bundeswehr",
-        "NATO",
-        "Krieg",
-        "Landesverteidigung",
-        "Verteidigung",
-        "Verteidigungspolitik"
-      ],
-      "slots": []
-    },
-    {
-      "name": "WirtschaftIntent",
-      "samples": [
-        "Wirtschaft",
-        "Wirtschaftsprogramm"
-      ],
-      "slots": []
-    }
-  ]
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "ArbeitSozialpolitikIntent",
+        "samples": [
+          "Sozialpolitik",
+          "Arbeitsmarkt",
+          "Arbeitslose",
+          "Arbeit",
+          "Arbeit und Soziales"
+        ],
+        "slots": []
+      },
+      {
+        "name": "AussenpolitikIntent",
+        "samples": [
+          "Aussenpolitik",
+          "Russland",
+          "Amerika",
+          "USA",
+          "EU",
+          "China",
+          "Naher Osten",
+          "Außenpolitik"
+        ],
+        "slots": []
+      },
+      {
+        "name": "BildungForschungIntent",
+        "samples": [
+          "Bildung und Forschung",
+          "Bildungspolitik",
+          "Bildungssystem",
+          "Schule",
+          "Lehrer",
+          "Ausbildung",
+          "Forschung",
+          "Studium",
+          "Universitäten",
+          "Bildung"
+        ],
+        "slots": []
+      },
+      {
+        "name": "CancelIntent",
+        "samples": [
+          "Abbruch",
+          "Abbrechen"
+        ],
+        "slots": []
+      },
+      {
+        "name": "EinleitungIntent",
+        "samples": [
+          "Einleitung",
+          "Einführung",
+          "Programm",
+          "Deutsche Mitte",
+          "Überblick"
+        ],
+        "slots": []
+      },
+      {
+        "name": "EntwicklungIntent",
+        "samples": [
+          "Entwicklungspolitik",
+          "Afrika",
+          "Dritte Welt",
+          "Hunger",
+          "Entwicklungshilfe",
+          "Entwicklung"
+        ],
+        "slots": []
+      },
+      {
+        "name": "FamilienpolitikIntent",
+        "samples": [
+          "Familie",
+          "Kinder",
+          "Senioren",
+          "Frauen",
+          "Kindergeld",
+          "Jugend",
+          "Familienpolitik"
+        ],
+        "slots": []
+      },
+      {
+        "name": "FinanzpolitikIntent",
+        "samples": [
+          "Geldsystem",
+          "Bank",
+          "Kapital",
+          "Bankenkartell",
+          "Banker",
+          "Zinsen",
+          "Geldschöpfung",
+          "Finanzpolitik",
+          "Finanzen"
+        ],
+        "slots": []
+      },
+      {
+        "name": "GesundheitIntent",
+        "samples": [
+          "Gesundheit",
+          "Krankenversicherung",
+          "Gesundheitspolitik",
+          "Gesundheitssystem"
+        ],
+        "slots": []
+      },
+      {
+        "name": "HelloWorldIntent",
+        "samples": [
+          "Zurück zum Anfang",
+          "Zurück",
+          "Neustarten",
+          "Menu"
+        ],
+        "slots": []
+      },
+      {
+        "name": "HelpIntent",
+        "samples": [
+          "Hilfe",
+          "Programmpunkte",
+          "Themen",
+          "Ressorts"
+        ],
+        "slots": []
+      },
+      {
+        "name": "HoerstelIntent",
+        "samples": [
+          "Christoph Hörstel",
+          "Hörstel"
+        ],
+        "slots": []
+      },
+      {
+        "name": "InnenpolitikIntent",
+        "samples": [
+          "Innenpolitik",
+          "Sicherheit",
+          "Polizei",
+          "Inneres"
+        ],
+        "slots": []
+      },
+      {
+        "name": "JustizIntent",
+        "samples": [
+          "Justiz",
+          "Rechtssystem"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NeueMitteIntent",
+        "samples": [
+          "Neue Mitte"
+        ],
+        "slots": []
+      },
+      {
+        "name": "PolitikerProfilIntent",
+        "samples": [
+          "Wer soll künftig Deutschland führen",
+          "in Zukunft Deutschland führen",
+          "künftige Politiker",
+          "Persönlichkeitsprofil",
+          "Führungskräfte"
+        ],
+        "slots": []
+      },
+      {
+        "name": "StopIntent",
+        "samples": [
+          "Stop",
+          "Beenden"
+        ],
+        "slots": []
+      },
+      {
+        "name": "UmweltIntent",
+        "samples": [
+          "Umwelt Naturschutz und Reaktorsicherheit",
+          "Umweltschutz",
+          "Naturschutz",
+          "Umweltpolitik",
+          "Umweltprogramm"
+        ],
+        "slots": []
+      },
+      {
+        "name": "VerbraucherschutzIntent",
+        "samples": [
+          "Ernährung Landwirtschaft und Verbraucherschutz",
+          "Verbraucherschutz",
+          "Landwirtschaft",
+          "Ernährung"
+        ],
+        "slots": []
+      },
+      {
+        "name": "VerkehrspolitikIntent",
+        "samples": [
+          "Strassen",
+          "Schiene",
+          "Bahn",
+          "Bus",
+          "Nahverkehr",
+          "Infrastruktur",
+          "Verkehrspolitik",
+          "Verkehr"
+        ],
+        "slots": []
+      },
+      {
+        "name": "VerratenIntent",
+        "samples": [
+          "Wer hat uns verraten"
+        ],
+        "slots": []
+      },
+      {
+        "name": "VerteidigungIntent",
+        "samples": [
+          "Bundeswehr",
+          "NATO",
+          "Krieg",
+          "Landesverteidigung",
+          "Verteidigung",
+          "Verteidigungspolitik"
+        ],
+        "slots": []
+      },
+      {
+        "name": "WirtschaftIntent",
+        "samples": [
+          "Wirtschaft",
+          "Wirtschaftsprogramm"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "deutsche mitte"
+  }
 }
