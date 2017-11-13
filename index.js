@@ -245,7 +245,7 @@ const handlers = {
       );
   },
   NeueMitteIntent: function() {
-    let title = "Die Neue Mitte";
+    let title = "Neue Mitte";
     let content = "Die Neue Mitte.";
     app
       .showSimpleCard(title, content)
