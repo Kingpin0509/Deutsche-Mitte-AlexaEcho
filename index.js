@@ -263,6 +263,7 @@ const handlers = {
       );
   },
   END: function() {
+    app.toIntent("StopIntent");
     // This intent is called when the session ends
     // Currently supporting AMAZON.StopIntent and reprompt timeouts
   }
