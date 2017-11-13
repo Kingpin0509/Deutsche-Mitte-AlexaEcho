@@ -256,6 +256,60 @@
           "Wirtschaftsprogramm"
         ],
         "slots": []
+      },
+        {
+        "name": "EthikIntent",
+        "samples": [
+          "Ethik",
+          "ethische",
+          "Politik",
+          "ethische Politik",
+          "Bewahrung",
+          "Schöpfung",
+          "Bewahrung der Schöpfung"
+        ],
+        "slots": []
+      },
+      {
+        "name": "DeutschlandIntent",
+        "samples": [
+          "Deutschland",
+          "BRD",
+          "Souveränität",
+          "Friedensvertrag",
+          "Verfassung",
+          "Grundgesetz"
+        ],
+        "slots": []
+      },
+      {
+        "name": "WahlversprechenIntent",
+        "samples": [
+          "Wahlversprechen",
+          "Versprechen"
+        ],
+        "slots": []
+      },
+      {
+        "name": "KartelleIntent",
+        "samples": [
+          "Mafia",
+          "Kartell",
+          "Finanzkartell",
+          "Pharmakartell",
+          "Kartellmafia",
+          "Syndikat"
+        ],
+        "slots": []
+      },
+      {
+        "name": "KoalitionIntent",
+        "samples": [
+          "Ressortabgrenzungsgespräche",
+          "Koalition",
+          "Koalitionsverhandlungen"
+        ],
+        "slots": []
       }
     ],
     "invocationName": "deutsche mitte"
