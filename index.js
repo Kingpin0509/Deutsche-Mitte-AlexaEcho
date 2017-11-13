@@ -19,6 +19,16 @@ const handlers = {
   LAUNCH: function() {
     app.toIntent("HelloWorldIntent");
   },
+  CancelIntent: function() {
+    let title = "Aufwiedersehen!";
+    let content = "Aufwiedersehen!";
+    app.showSimpleCard(title, content).tell("Aufwiedersehen!");
+  },
+  StopIntent: function() {
+    let title = "Aufwiedersehen!";
+    let content = "Aufwiedersehen!";
+    app.showSimpleCard(title, content).tell("Aufwiedersehen!");
+  },
   HelloWorldIntent: function() {
     let title = "Willkommen bei der Deutschen Mitte.";
     let content =
@@ -40,12 +50,7 @@ const handlers = {
         "Oder worüber möchtest du mehr erfahren?"
       );
   },
-  CancelIntent: function() {
-    app.tell("Aufwiedersehen!");
-  },
-  StopIntent: function() {
-    app.tell("Aufwiedersehen!");
-  },
+
   EinleitungIntent: function() {
     let title = "Das Programm";
     let content =
