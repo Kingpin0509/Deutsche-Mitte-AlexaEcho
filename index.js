@@ -7,27 +7,34 @@
 const app = require("jovo-framework").Jovo;
 
 exports.handler = function(event, context, callback) {
+  // Map Dialogflow standard parameter given-name with name
+  //use an inputMap to match incoming inputs from Alexa and Google.
+  app.setConfig({
+    inputMap: {
+      "given-name": "name"
+    },
+    userDataCol: "userData"
+  });
   app.handleRequest(event, callback, handlers);
   app.execute();
 };
-
 // =================================================================================
 // App Logic
 // =================================================================================
-
 const handlers = {
   LAUNCH: function() {
+    let speech = app.speechBuilder();
+    app.toIntent("HelloWorldIntent", app.user().isNewUser());
+    app.toIntent("HelloBackIntent", !app.user().isNewUser());
+    app.tell(speech);
+  },
+  NameIntent: function(name) {
+    app.tell("Hallo " + name);
     app.toIntent("HelloWorldIntent");
   },
-  CancelIntent: function() {
-    let title = "Aufwiedersehen!";
-    let content = "Aufwiedersehen!";
-    app.showSimpleCard(title, content).tell("Aufwiedersehen!");
-  },
-  StopIntent: function() {
-    let title = "Aufwiedersehen!";
-    let content = "Aufwiedersehen!";
-    app.showSimpleCard(title, content).tell("Aufwiedersehen!");
+  SaveUserDataIntent: function() {
+    app.user().data.name = "over 9000";
+    app.tell("Saved!");
   },
   HelloWorldIntent: function() {
     let title = "Willkommen bei der Deutschen Mitte.";
@@ -37,6 +44,16 @@ const handlers = {
       .showSimpleCard(title, content)
       .ask(
         "Willkommen bei der Deutschen Mitte. Um mehr über das Programm der Deutschen Mitte zu erfahren sage Einleitung. Oder nenne ein Politikressort um mehr zu erfahren z.B. Innenpolitik, Verteidigung oder Wirtschaft. Oder möchtest du eine Auflistung aller Programmschwerpunkte? Dann sage Hilfe."
+      );
+  },
+  HelloBackIntent: function() {
+    let title = "Willkommen zurück...";
+    let content =
+      "Um mehr über das Programm der Deutschen Mitte zu erfahren sage Einleitung. Oder nenne ein Politikressort um mehr zu erfahren z.B. Innenpolitik, Verteidigung oder Wirtschaft. Oder möchtest du eine Auflistung aller Programmschwerpunkte? Dann sage Hilfe.";
+    app
+      .showSimpleCard(title, content)
+      .ask(
+        "Willkommen zurück..! Sage Einleitung. Oder nenne ein Politikressort um mehr zu erfahren z.B. Innenpolitik, Verteidigung oder Wirtschaft. Oder möchtest du eine Auflistung aller Programmschwerpunkte? Dann sage Hilfe."
       );
   },
   HelpIntent: function() {
@@ -50,7 +67,6 @@ const handlers = {
         "Oder worüber möchtest du mehr erfahren?"
       );
   },
-
   EinleitungIntent: function() {
     let title = "Das Programm";
     let content =
@@ -261,6 +277,16 @@ const handlers = {
         "Wenn die Vernetzung unter den Mitgliedern einer Landesgruppe gut geklappt hat, wächst automatisch der Wunsch, sich einmal persönlich kennen zu lernen. Endlich einmal in Ruhe mit anderen zu diskutieren, die auch begriffen haben, wohin die reise geht, die sich nicht den Tatsachen verweigern und die Beeinflussung ihres Weltbildes nicht der Tagesschau oder anderen Großmedien anvertrauen. Hier ist es wichtig, gerade weil die Deutsche Mitte die potenziell gefährlichste Herausforderung für das jetzige politische System und die herrschenden Oligarchen ist, von vornherein bestimmte Ordnungen einzuhalten. Wir verstehen einem DM-Stammtisch als erste Anlaufstelle für Interessierte. Ausführliche Vorträge oder ähnliches, alles oberhalb von 10, 15 Minuten, organisieren wir zu anderen, zu eigenen Terminen. Denn immer wieder werden wir Besucher haben, die einfach einen DM-Kreis kennen lernen wollen, um sich eine Meinung über diese Partei zu bilden – vor einem möglichen späteren Eintritt. Diese Besucher wollen eigene Fragen beantwortet haben und Meinungen von möglichst unterschiedlichen Menschen hören. Deshalb geben wir viel Raum,damit man sich kennen lernen und austauschen kann. Erfahrungsaustausch ist nun einmal der günstigste Weg, Vertrauen zu schaffen, gerade auch bei denen, die vielleicht durch frühere, unerfreuliche Erfahrungen mit Parteien „nie wieder etwas mit Parteipolitik zu tun“ haben wollten... Wenn Sie sicherstellen können, dass solche skeptischen und kritischen Menschen sich plötzlich doch wieder einbringen wollen, läuft alles Andere wie von selbst. Sie werden es erleben! Dabei helfen ein paar wichtige Erfahrungen und Erfolgsrezepte: Unverrückbar: Termin - Dies erspart Verwaltungsaufwand. Denn (schriftliche) Einladungen erübrigen sich. Bitten Sie jeden Besucher darum, auf Ihren Stammtisch aufmerksam zu machen. Dies gilt für allgemein politisch Interessierte ebenso wie zum Beispiel auch für künftige Mitglieder. Jeder Teilnehmer muss sich außerdem an Ihrem Stammtisch mit anderen verabreden dürfen. Dies hat den Vorteil, dass immer mehrere Ansprechpartner zur Verfügung stehen. Und, Sie werden sehen, das ist die beste. Der Stammtisch-Treff sollte immer an ein oder zwei festen Wochentagen im Monat („1. & 3. Montag im Monat“) stattfinden. Ausnahmen gibt es nicht, um Enttäuschungen bei denen zu vermeiden, die bei der Ausnahme-Verabredung nicht dabei waren... Unverrückbar: Adresse - Mancher tut sich sehr schwer damit, öffentliche Einrichtungen zu besuchen. Menschen sind Individualisten, zu viel Bürokratie und Vorschriften nerven, das direkte Gespräch, ohne Voranmeldung, ist Trumpf. - Wir treffen uns also wie in einem Lokal, nur ohne lange Anfahrt, Parkplatz-Sorgen und andere Zugangshürden. Ein mittelgroßer Saal ist vorhanden, diesen dürfen wir kostenlos nutzen, weil wir „Umsatz machen“ helfen. So werben wir gleichzeitig auch für unser Lokal – werden und bleiben gern gesehene Gäste. Im Ausnahmefall wichtig: Ausweichlokal Sollte das Lokal einmal zufällig am Stammtisch-Termin geschlossen haben, so sorgen Sie rechtzeitig für ein Ausweich-Lokal. Wenn alle Stricke reißen, hilft notfalls ein regenfester Zettel an der Eingangstür des Stammlokals, auf dem das Ausweichlokal genannt ist. Offen für jeden: Jeder darf jeden einladen und/oder mitbringen. DM-Kollegen ebenso wie Angehörige verschiedenster Berufsgruppen, Ausrichtungen usw... Mitgliedschaft in der Deutsche Mitte darf keine Voraussetzung für die Teilnahme am Stammtisch sein. Erlaubt ist natürlich ein bisschen Reklame für die eigene DM Organisation - wie kann dies auch anders sein? Eintrittsgeld: niemals! Jeder muss selbstverständlich den eigenen Verzehr bezahlen. Aufgaben der Stammtischleitung: Zunächst muss ein geeigneter Ort gefunden werden. 1-3 Kollegen verständigen sich dann noch, wer welchen Termin auf jeden Fall wahrnimmt. Denn niemals darf der Stammtisch ohne Betreuung sein! Wir vereinbaren dies untereinander per Telefon-Rundruf oder Hangouts. Genau wie bei jedem guten Gastgeber, besteht die selbstverständliche Aufgabe der Stammtisch-Leitung darin, zunächst das 4-Augen-Gespäche mit den ErstTeilnehmern zu suchen. Die Stamm-Teilnehmer werden sich in dieser Zeit gerne untereinander austauschen. Erst einmal geht es darum, herauszufinden, welche Fragen der neue Gast mitgebracht hat. Dabei werden gleich auch die Adresse, das politische Gebiet sowie weitere Stichworte notiert, damit im Fall der Fälle Informationen weitergegeben werden können. Alle Anschriften usw. landen beim StammtischChef, der diese sorgfältig aufbewahrt. Nach diesem Kennenlernen wird der/die Neue kurz vorgestellt und ein anderer Teilnehmer – derjenige den man im Moment als den geeignetsten Gesprächspartner einstuft – persönlich gebeten, sich mit der/dem Neuen nun zu unterhalten. Der Rest entwickelt sich! Als letztes gehört auch noch die Netzwerk-Pflege zu den Aufgaben der Stammtischleitung. Wenn die erste Gründungszeit vorbei ist und der Stammtisch „steht“, sollten Sie auch soziale Netzwerke, kritische Blogs etc. informieren. Dadurch werden DM-Treffen kostenlos in verschiedenen (Veranstaltungs-) Programmen veröffentlicht und weiteres sympathisches Interesse ist gesichert. Achtung: Journalisten, insbesondere der großen Medien, dürfen nicht teilnehmen und müssen an den Bundesvorstand verwiesen werden, solange es keine Landesverbände gibt! Der Hintergrund ist klar: In der Satzung steht eindeutig geregelt, wer mit den Medien spricht – das hilft, das von Piraten und anderen bekannte Chaos zu vermeiden – und entsprechende herbe Verunglimpfungen und Rückschläge, die Interessierte auch abschrecken können. Unser Wunsch zum Schluss: Viel Erfolg! Ihr/Euer Deutsche Mitte Team",
         "Worüber möchtest du sonst noch mehr erfahren?"
       );
+  },
+  CancelIntent: function() {
+    let title = "Aufwiedersehen!";
+    let content = "Aufwiedersehen!";
+    app.showSimpleCard(title, content).tell("Aufwiedersehen!");
+  },
+  StopIntent: function() {
+    let title = "Aufwiedersehen!";
+    let content = "Aufwiedersehen!";
+    app.showSimpleCard(title, content).tell("Aufwiedersehen!");
   },
   END: function() {
     app.toIntent("StopIntent");
