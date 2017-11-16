@@ -63,6 +63,18 @@
         "slots": []
       },
       {
+        "name": "DeutschlandIntent",
+        "samples": [
+          "Deutschland",
+          "BRD",
+          "Souveränität",
+          "Friedensvertrag",
+          "Verfassung",
+          "Grundgesetz"
+        ],
+        "slots": []
+      },
+      {
         "name": "EinleitungIntent",
         "samples": [
           "Einleitung",
@@ -82,6 +94,19 @@
           "Hunger",
           "Entwicklungshilfe",
           "Entwicklung"
+        ],
+        "slots": []
+      },
+      {
+        "name": "EthikIntent",
+        "samples": [
+          "Ethik",
+          "ethische",
+          "Politik",
+          "ethische Politik",
+          "Bewahrung",
+          "Schöpfung",
+          "Bewahrung der Schöpfung"
         ],
         "slots": []
       },
@@ -121,6 +146,11 @@
           "Gesundheitspolitik",
           "Gesundheitssystem"
         ],
+        "slots": []
+      },
+      {
+        "name": "HelloBackIntent",
+        "samples": [],
         "slots": []
       },
       {
@@ -170,6 +200,37 @@
         "slots": []
       },
       {
+        "name": "KartelleIntent",
+        "samples": [
+          "Mafia",
+          "Kartell",
+          "Finanzkartell",
+          "Pharmakartell",
+          "Kartellmafia",
+          "Syndikat"
+        ],
+        "slots": []
+      },
+      {
+        "name": "KoalitionIntent",
+        "samples": [
+          "Ressortabgrenzungsgespräche",
+          "Koalition",
+          "Koalitionsverhandlungen"
+        ],
+        "slots": []
+      },
+      {
+        "name": "NameIntent",
+        "samples": [],
+        "slots": [
+          {
+            "name": "Name",
+            "type": "AMAZON.DE_FIRST_NAME"
+          }
+        ]
+      },
+      {
         "name": "NeueMitteIntent",
         "samples": [
           "Neue Mitte"
@@ -184,6 +245,21 @@
           "künftige Politiker",
           "Persönlichkeitsprofil",
           "Führungskräfte"
+        ],
+        "slots": []
+      },
+      {
+        "name": "SaveUserDataIntent",
+        "samples": [],
+        "slots": []
+      },
+      {
+        "name": "StammtischeIntent",
+        "samples": [
+          "Stammtisch",
+          "Stammtischtreffen",
+          "DM-Stammtisch",
+          "Stammtische"
         ],
         "slots": []
       },
@@ -250,39 +326,6 @@
         "slots": []
       },
       {
-        "name": "WirtschaftIntent",
-        "samples": [
-          "Wirtschaft",
-          "Wirtschaftsprogramm"
-        ],
-        "slots": []
-      },
-        {
-        "name": "EthikIntent",
-        "samples": [
-          "Ethik",
-          "ethische",
-          "Politik",
-          "ethische Politik",
-          "Bewahrung",
-          "Schöpfung",
-          "Bewahrung der Schöpfung"
-        ],
-        "slots": []
-      },
-      {
-        "name": "DeutschlandIntent",
-        "samples": [
-          "Deutschland",
-          "BRD",
-          "Souveränität",
-          "Friedensvertrag",
-          "Verfassung",
-          "Grundgesetz"
-        ],
-        "slots": []
-      },
-      {
         "name": "WahlversprechenIntent",
         "samples": [
           "Wahlversprechen",
@@ -291,23 +334,10 @@
         "slots": []
       },
       {
-        "name": "KartelleIntent",
+        "name": "WirtschaftIntent",
         "samples": [
-          "Mafia",
-          "Kartell",
-          "Finanzkartell",
-          "Pharmakartell",
-          "Kartellmafia",
-          "Syndikat"
-        ],
-        "slots": []
-      },
-      {
-        "name": "KoalitionIntent",
-        "samples": [
-          "Ressortabgrenzungsgespräche",
-          "Koalition",
-          "Koalitionsverhandlungen"
+          "Wirtschaft",
+          "Wirtschaftsprogramm"
         ],
         "slots": []
       }
